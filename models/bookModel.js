@@ -4,3 +4,5 @@ export const fetchAllBooks = async () => {
     const [rows] = await pool.query("SELECT * FROM book");
     return rows;
 };
+
+
